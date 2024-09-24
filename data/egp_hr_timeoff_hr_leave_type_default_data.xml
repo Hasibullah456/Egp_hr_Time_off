@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="egp_hr_default_data" model="hr.leave.type">
+        <field name="name"><![CDATA[رخصتی مریضی]]></field>
+    </record>
+
+    <record id="egp_hr_default_data_t" model="hr.leave.type">
+        <field name="name"><![CDATA[رخصتی تفریحی]]></field>
+    </record>
+
+    <record id="egp_hr_default_data_w" model="hr.leave.type">
+        <field name="name"><![CDATA[رخصتی عروسی ]]></field>
+    </record>
+
+    <record id="egp_hr_default_data_h" model="hr.leave.type">
+        <field name="name"><![CDATA[رخصتی حج]]></field>
+    </record>
+
+    <record id="egp_hr_default_data_pr" model="hr.leave.type">
+        <field name="name"><![CDATA[رخصتی ولادی]]></field>
+    </record>
+</odoo>

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record model="ir.actions.report" id="hr_employee_leave_ticket">
+        <field name="name">Time off Ticket</field>
+        <field name="model_id" ref="model_hr_leave"/>
+        <field name="model">hr.leave</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">egp_hr_time_off.print_time_off_leave</field>
+        <field name="report_file">egp_hr_time_off.print_time_off_leave</field>
+        <field name="binding_model_id" ref="model_hr_leave"/>
+        <field name="binding_type">report</field>
+    </record>
+
+
+    <template id="print_time_off_leave">
+        <t t-call="web.basic_layout">
+            <t t-foreach="docs" t-as="doc">
+                <div class="page">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="egp_hr_time_off/static/description/Emerate_logo.png" height="100" border="1"
+                                 width="100"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-6 text-center" style="font-family:Calibri;">
+                            <p>امارت اسلامی افغانستان</p>
+                            <p>وزارت مخابرات و تکنالوژی معلوماتی</p>
+                            <p>ریاست منابع بشری</p>
+                        </div>
+
+                        <div class="col-6 text-center" style="font-family:Calibri;">
+                            <p>د افغانستان اسلامی امارت</p>
+                            <p>د مخابراتو او تکنالوژی وزارت</p>
+                            <p>دبشری سرجینو ریاست</p>
+                        </div>
+                    </div>
+                        <div class="col-12 text-center" style="font-family:Calibri;">
+                            <p class="text-center">Islamic Emarat of Afghanistan</p>
+                            <p>Ministry of Communication and IT</p>
+                            <p>ریاست عمومی حاضری الکترنیکی</p>
+
+                        </div>
+
+
+                    <div class="col-12 text-rigth" style="font-family:Calibri;">
+                         <p style="float:right margin-left:10px;">Serial Number......................</p><br/>
+                        <p style="float:right">Employee's reputation who takes leave during the day as needed.</p>
+                    </div>
+
+                    <table class="table table-bordered">
+                        <tr>
+                            <th style="font-family:Calibri;">Number</th>
+                            <th style="font-family:Calibri;">Name</th>
+                            <th style="font-family:Calibri;">Father Name</th>
+                            <th style="font-family:Calibri;">Job</th>
+                            <th style="font-family:Calibri;">Department</th>
+                             <th style="font-family:Calibri;">Date</th>
+                            <th style="font-family:Calibri;">Time off Type</th>
+                            <th style="font-family:Calibri;">Duration</th>
+                            <th style="font-family:Calibri;">Description</th>
+                        </tr>
+
+                        <tr>
+                            <td style="font-family:Calibri;"><span t-field="doc.id"/></td>
+                            <td style="font-family:Calibri;">
+                             <span t-field="doc.employee_id.name"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                             <span t-field="doc.employee_id.father_name"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                              <span t-field="doc.employee_id.job_id.name"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                             <span t-field="doc.department_id"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+
+                         <span t-field="doc.request_date_from"/>
+
+                            </td>
+                            <td style="font-family:Calibri;">
+                                <span t-field="doc.holiday_status_id"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                              <span t-field="doc.number_of_days_display"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                              <span t-field="doc.name"/>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <div  style="font-family:Calibri; float:left">Accepet by Bos
+                   <br/> <span t-field="doc.state"/>
+                </div>
+                <div  style="font-family:Calibri; float:right">Accepet by officer<br/>
+                <span t-field="doc.state"/>
+                </div>
+            </t>
+        </t>
+    </template>
+
+
+
+
+
+
+    <record model="ir.actions.report" id="hr_employee_leave_ticket_day">
+        <field name="name">Holiday_Request_form</field>
+        <field name="model_id" ref="model_hr_leave"/>
+        <field name="model">hr.leave</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">egp_hr_time_off.print_time_off_leave_day</field>
+        <field name="report_file">egp_hr_time_off.print_time_off_leave_day</field>
+        <field name="binding_model_id" ref="model_hr_leave"/>
+        <field name="binding_type">report</field>
+    </record>
+    <template id="print_time_off_leave_day">
+        <t t-call="web.basic_layout">
+            <t t-foreach="docs" t-as="doc">
+                <div class="page" >
+                    <div class="row">
+                        <div class="col-6" >
+                            <img src="egp_hr_time_off/static/description/MCIT_logo.png" style="float:left;" height="150" border="1"
+                                 width="150"/>
+                        </div>
+                        <div class="col-6">
+                            <img src="egp_hr_time_off/static/description/Emerate_logo.png" style="float:right;" height="100" border="1"
+                                 width="100"/>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col-12 text-rigth" style="font-family:Calibri;">
+                         <p style="text-decoration:underline; text-align:center; position:relative; bottom:40px;">Leave Request Form </p><br/>
+
+                    </div>
+
+
+                    <table style="width:100%; height:150px; border:1px solid black; position:relative; bottom:80px;">
+
+
+
+                            <th style="font-family:Calibri;">date of request</th>
+                            <td><span t-field="doc.request_date_from"/></td> <br/>
+                            <th style="font-family:Calibri;">Name</th>
+                            <td> <span t-field="doc.employee_id.name"/></td>
+                            <th style="font-family:Calibri;">Father Name</th>
+                            <td> <span t-field="doc.employee_id.father_name"/></td>
+                            <th style="font-family:Calibri;">Position</th>
+                            <td><span t-field="doc.employee_id.job_id.name"/></td>
+                            <th style="font-family:Calibri;">Department</th>
+                            <td><span t-field="doc.department_id"/></td>
+                            <th style="font-family:Calibri;">Card Number</th>
+
+
+                    </table>
+                     <p style="position:relative; bottom:80px;">part 1:</p>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-12"  >
+
+                    <table class="table table-bordered" style="width:100%; height:60px; border:1px solid black; position:relative; bottom:90px;">
+                        <tr style="">
+
+                            <th style="font-family:Calibri;">Emergency</th>
+                            <th style="font-family:Calibri;">Sick</th>
+                             <th style="font-family:Calibri;">ٰVacation</th>
+                            <th style="font-family:Calibri;">ٌWedding</th>
+                            <th style="font-family:Calibri;">Hajj</th>
+                            <th style="font-family:Calibri;">Maternity</th>
+                        </tr>
+
+                        <tr style="height:40px;">
+                        <td style="font-family:Calibri; padding-top:30px;">
+
+                         <span t-field="doc.number_of_days_display"/>
+
+                            </td>
+
+                            <td style="font-family:Calibri;">
+
+                         <span t-field="doc.request_date_from"/>
+
+                            </td>
+
+
+
+                            <td style="font-family:Calibri;">
+
+                         <span t-field="doc.request_date_from"/>
+
+                            </td>
+                            <td style="font-family:Calibri;">
+                                <span t-field="doc.holiday_status_id"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                              <span t-field="doc.number_of_days_display"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                              <span t-field="doc.name"/>
+                            </td>
+                        </tr>
+                    </table>
+                    </div>
+                </div>
+                <div>
+                    <p style="position:relative; bottom:90px;">part 2:Leave Request</p>
+                    <table style="width:100%; height:120px; border:1px solid black; position:relative; bottom:100px;">
+                        <tr> <td><p>Leave starts from today's date</p></td>
+                        <td>date</td>
+                        </tr>
+                       <tr><td><p>Date of coming back to the office</p></td>
+                       <td>date</td>
+                       </tr>
+                    </table>
+                    <p style="position:relative; bottom:100px;">Note: All employees are requested to inform the relevant department in case any changes
+                        occur during their leave period.</p>
+
+
+                </div>
+                <div style="position:relative; bottom:100px;">
+                    <p>Signature of the requester</p>  <p>date</p>
+                     <h6>part 3:Communications</h6>
+                    <p>Contact address for urgent communications during leave:</p>
+                    <p>Number mobile:</p>
+                    <p>Email Address:</p>
+                    <p>Fax Number:.........................</p>
+                    <p>etc..................</p>
+                </div>
+                <div style="position:relative; bottom:100px;">
+                    <h6>part 4:Approval and Authorization</h6>
+                    <table style="width:100%; height:100px; border:1px solid black;">
+
+
+
+                            <th style="font-family:Calibri;">date of request</th>
+                            <td><span t-field="doc.request_date_from"/></td> <br/>
+
+                           <div  style="font-family:Calibri; float:left">Accepet by Bos
+                   <br/> <span t-field="doc.state"/>
+                </div>
+                <div  style="font-family:Calibri; float:right">Accepet by officer<br/>
+                <span t-field="doc.state"/>
+                </div>
+
+                    </table>
+                </div>
+
+
+            </t>
+        </t>
+    </template>
+</odoo>
+

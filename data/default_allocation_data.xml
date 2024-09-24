@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+<!--    <record id="egp_hr_default_data_patient" model="hr.leave.allocation">-->
+<!--        <field name="name"><![CDATA[رخصتی مریضی]]></field>-->
+<!--        <field name="number_of_days">20</field>-->
+<!--        <field name="state">confirm</field>-->
+<!--        <field name="date_from" eval="time.strftime('%Y-1-1')"/>-->
+<!--        <field name="date_to" eval="time.strftime('%Y-12-31')"/>-->
+<!--    </record>-->
+
+
+    <record id="egp_hr_default_data" model="hr.leave.type">
+        <field name="name"><![CDATA[رخصتی مریضی]]></field>
+        <field name="number_of_days">20</field>
+    </record>
+</odoo>

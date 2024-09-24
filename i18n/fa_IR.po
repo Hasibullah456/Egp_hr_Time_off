@@ -1,0 +1,322 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* egp_hr_time_off
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-18 06:58+0000\n"
+"PO-Revision-Date: 2024-09-18 06:58+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid ""
+"Accepet by Bos\n"
+"                   <br/>"
+msgstr ""
+"ملاحضه شد ریاست مربوطه\n"
+" <br/>"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Accepet by officer<br/>"
+msgstr "تایید آمر مربوطه<br/>"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Card Number"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:ir.module.category,description:egp_hr_time_off.module_egp_time_off
+msgid "Category for time off management"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Contact address for urgent communications during leave:"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "Date"
+msgstr "تاریخ"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Date of coming back to the office"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Department"
+msgstr "ریاست"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "Description"
+msgstr "ملاحظات"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "Duration"
+msgstr "مدت"
+
+#. module: egp_hr_time_off
+#: model:ir.module.category,name:egp_hr_time_off.module_egp_time_off
+msgid "Egp Time Off"
+msgstr "مودل رخصتی"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Email Address:"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Emergency"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:ir.model.fields,field_description:egp_hr_time_off.field_hr_leave__employee_ids
+msgid "Employees"
+msgstr "کارمندان"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Father Name"
+msgstr "ولد"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Fax Number:........................."
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Hajj"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:ir.actions.report,name:egp_hr_time_off.hr_employee_leave_ticket_day
+msgid "Holiday_Request_form"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "Islamic Emarat of Afghanistan"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "Job"
+msgstr "وظیفه"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Leave starts from today's date"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Maternity"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "Ministry of Communication and IT"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Name"
+msgstr "اسم"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid ""
+"Note: All employees are requested to inform the relevant department in case any changes\n"
+"                        occur during their leave period."
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "Number"
+msgstr "شماره"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Number mobile:"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:res.groups,name:egp_hr_time_off.officer
+msgid "Officer"
+msgstr "آمربوطه"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Position"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Sick"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "Signature of the requester"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:res.groups,name:egp_hr_time_off.super_admin
+msgid "Super Admin"
+msgstr "ریاست مربوطه"
+
+#. module: egp_hr_time_off
+#: model:ir.actions.report,name:egp_hr_time_off.hr_employee_leave_ticket
+msgid "Time off Ticket"
+msgstr "تکت رخصتی"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "Time off Type"
+msgstr "نوع رخصتی"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "date"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "date of request"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:res.groups,name:egp_hr_time_off.employee
+msgid "employee"
+msgstr "کارکنان"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "etc.................."
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "part 2:"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "part 3:Communications"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "part 4:Approval and Authorization"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:ir.model,name:egp_hr_time_off.model_hr_leave
+msgid "time off"
+msgstr "مرخصی"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "امارت اسلامی افغانستان"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "د افغانستان اسلامی امارت"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "د مخابراتو او تکنالوژی وزارت"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "دبشری سرجینو ریاست"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:hr.leave.type,name:egp_hr_time_off.egp_hr_default_data_t
+msgid "رخصتی تفریحی"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:hr.leave.type,name:egp_hr_time_off.egp_hr_default_data_h
+msgid "رخصتی حج"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:hr.leave.type,name:egp_hr_time_off.egp_hr_default_data_w
+msgid "رخصتی عروسی "
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:hr.leave.type,name:egp_hr_time_off.egp_hr_default_data
+msgid "رخصتی مریضی"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model:hr.leave.type,name:egp_hr_time_off.egp_hr_default_data_pr
+msgid "رخصتی ولادی"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "ریاست عمومی حاضری الکترنیکی"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "ریاست منابع بشری"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "شهرت کارکنان که بنابر ضرورت در طول روز رخصت اخذ می نماید."
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "فورم درخواست رخصتی"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "serial Number"
+msgstr "......................نمبر مسلسل"
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave
+msgid "وزارت مخابرات و تکنالوژی معلوماتی"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "ٌWedding"
+msgstr ""
+
+#. module: egp_hr_time_off
+#: model_terms:ir.ui.view,arch_db:egp_hr_time_off.print_time_off_leave_day
+msgid "ٰVacation"
+msgstr ""

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <record model="ir.actions.report" id="hr_employee_leave_ticket">
+        <field name="name">Time off Ticket</field>
+        <field name="model_id" ref="model_hr_leave"/>
+        <field name="model">hr.leave</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">egp_hr_time_off.print_time_off_leave</field>
+        <field name="report_file">egp_hr_time_off.print_time_off_leave</field>
+        <field name="binding_model_id" ref="model_hr_leave"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <template id="print_time_off_leave">
+        <t t-call="web.basic_layout">
+            <t t-foreach="docs" t-as="doc">
+                <div class="page">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <img src="egp_hr_time_off/static/description/Emerate_logo.png" height="100" border="1"
+                                 width="100"/>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col-6 text-center" style="font-family:Calibri;">
+                            <p>امارت اسلامی افغانستان</p>
+                            <p>وزارت مخابرات و تکنالوژی معلوماتی</p>
+                            <p>ریاست منابع بشری</p>
+                        </div>
+
+                        <div class="col-6 text-center" style="font-family:Calibri;">
+                            <p>د افغانستان اسلامی امارت</p>
+                            <p>د مخابراتو او تکنالوژی وزارت</p>
+                            <p>دبشری سرجینو ریاست</p>
+                        </div>
+                    </div>
+                        <div class="col-12 text-center" style="font-family:Calibri;">
+                            <p class="text-center">Islamic Emarat of Afghanistan</p>
+                            <p>Ministry of Communication and IT</p>
+                            <p>ریاست عمومی حاضری الکترنیکی</p>
+
+                        </div>
+
+
+                    <div class="col-12 text-rigth" style="font-family:Calibri;">
+                         <p style="float:right margin-left:10px;">نمبر مسلسل......................</p><br/>
+                        <p style="float:right">شهرت کارکنان که بنابر ضرورت در طول روز رخصت اخذ می نماید.</p>
+                    </div>
+                    <table class="table table-bordered">
+                        <tr>
+                            <th style="font-family:Calibri;">Number</th>
+                            <th style="font-family:Calibri;">Name</th>
+                            <th style="font-family:Calibri;">Father Name</th>
+                            <th style="font-family:Calibri;">Job</th>
+                            <th style="font-family:Calibri;">Department</th>
+                             <th style="font-family:Calibri;">Date</th>
+                            <th style="font-family:Calibri;">Time off Type</th>
+                            <th style="font-family:Calibri;">Duration</th>
+                            <th style="font-family:Calibri;">Description</th>
+                        </tr>
+
+                        <tr>
+                            <td style="font-family:Calibri;"><span t-field="doc.id"/></td>
+                            <td style="font-family:Calibri;">
+                             <span t-field="doc.employee_id.name"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                             <span t-field="doc.employee_id.father_name"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                              <span t-field="doc.employee_id.job_id.name"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                             <span t-field="doc.department_id"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+
+                         <span t-field="doc.request_date_from"/>
+
+                            </td>
+                            <td style="font-family:Calibri;">
+                                <span t-field="doc.holiday_status_id"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                              <span t-field="doc.number_of_days_display"/>
+                            </td>
+                            <td style="font-family:Calibri;">
+                              <span t-field="doc.name"/>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <div  style="font-family:Calibri; float:left">Accepet by Bos
+                   <br/> <span t-field="doc.state"/>
+                </div>
+                <div  style="font-family:Calibri; float:right">Accepet by officer<br/>
+                <span t-field="doc.state"/>
+                </div>
+            </t>
+        </t>
+    </template>
+
+
+</odoo>
