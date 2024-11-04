@@ -2,19 +2,25 @@
 <odoo>
     <data noupdate="1">
         <record id="egp_hr_default_user_director" model="res.users">
-            <field name="name"><![CDATA[ریس ]]></field>
-            <field name="login">director@gmail.com</field>
+            <field name="name"><![CDATA[Time Off Manager ]]></field>
+            <field name="login">Manager@gmail.com</field>
             <field name="password">123</field>
         </record>
 
         <record id="egp_hr_default_user_manager" model="res.users">
-            <field name="name"><![CDATA[ آمر]]></field>
-            <field name="login">manager@gmail.com</field>
+            <field name="name"><![CDATA[Time Off Officer]]></field>
+            <field name="login">Officer@gmail.com</field>
+            <field name="password">123</field>
+        </record>
+
+        <record id="egp_hr_default_user_TimeOffResponsible" model="res.users">
+            <field name="name"><![CDATA[Time Off Responsible]]></field>
+            <field name="login">Time Off Responsible@gmail.com</field>
             <field name="password">123</field>
         </record>
 
         <record id="egp_hr_default_user_employee" model="res.users">
-            <field name="name"><![CDATA[ کارمند]]></field>
+            <field name="name"><![CDATA[ Employee]]></field>
             <field name="login">employees@gmail.com</field>
             <field name="password">123</field>
         </record>

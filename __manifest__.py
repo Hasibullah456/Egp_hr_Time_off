@@ -12,7 +12,6 @@
 
         'data/egp_hr_timeoff_hr_leave_type_default_data.xml',
         'report/egp_hr_time_off_report.xml',
-        # 'report/egh_hr_time_off_report_days.xml',
         'data/default_user.xml',
 
     ],

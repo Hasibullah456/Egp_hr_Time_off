@@ -6,8 +6,8 @@
         <field name="model_id" ref="model_hr_leave"/>
         <field name="model">hr.leave</field>
         <field name="report_type">qweb-pdf</field>
-        <field name="report_name">egp_hr_time_off.print_time_off_leave</field>
-        <field name="report_file">egp_hr_time_off.print_time_off_leave</field>
+        <field name="report_name">Egp_hr_Time_off.print_time_off_leave</field>
+        <field name="report_file">Egp_hr_Time_off.print_time_off_leave</field>
         <field name="binding_model_id" ref="model_hr_leave"/>
         <field name="binding_type">report</field>
     </record>
@@ -19,7 +19,7 @@
                 <div class="page">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <img src="egp_hr_time_off/static/description/Emerate_logo.png" height="100" border="1"
+                            <img src="Egp_hr_Time_off/static/description/Emerate_logo.png" height="100" border="1"
                                  width="100"/>
                         </div>
                     </div>
@@ -48,7 +48,7 @@
 
                     <div class="col-12 text-rigth" style="font-family:Calibri;">
                          <p style="float:right margin-left:10px;">Serial Number......................</p><br/>
-                        <p style="float:right">Employee's reputation who takes leave during the day as needed.</p>
+                        <p style="float:left">Employee's reputation who takes leave during the day as needed.</p>
                     </div>
 
                     <table class="table table-bordered">
@@ -117,8 +117,8 @@
         <field name="model_id" ref="model_hr_leave"/>
         <field name="model">hr.leave</field>
         <field name="report_type">qweb-pdf</field>
-        <field name="report_name">egp_hr_time_off.print_time_off_leave_day</field>
-        <field name="report_file">egp_hr_time_off.print_time_off_leave_day</field>
+        <field name="report_name">Egp_hr_Time_off.print_time_off_leave_day</field>
+        <field name="report_file">Egp_hr_Time_off.print_time_off_leave_day</field>
         <field name="binding_model_id" ref="model_hr_leave"/>
         <field name="binding_type">report</field>
     </record>
@@ -128,11 +128,11 @@
                 <div class="page" >
                     <div class="row">
                         <div class="col-6" >
-                            <img src="egp_hr_time_off/static/description/MCIT_logo.png" style="float:left;" height="150" border="1"
+                            <img src="Egp_hr_Time_off/static/description/MCIT_logo.png" style="float:left;" height="150" border="1"
                                  width="150"/>
                         </div>
                         <div class="col-6">
-                            <img src="egp_hr_time_off/static/description/Emerate_logo.png" style="float:right;" height="100" border="1"
+                            <img src="Egp_hr_Time_off/static/description/Emerate_logo.png" style="float:right;" height="100" border="1"
                                  width="100"/>
                         </div>
                     </div>

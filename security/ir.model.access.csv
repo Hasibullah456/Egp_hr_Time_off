@@ -1,62 +1,85 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 
-access_hr_holidays_manager_request_e,hr.holidays.manager.request_e,hr_holidays.model_hr_leave,egp_hr_time_off.super_admin,1,1,1,1
+access_hr_holidays_manager_request_m,hr.holidays.manager.request_e,hr_holidays.model_hr_leave,Egp_hr_Time_off.time_off_manager,1,1,1,1
 
-access_resource_calendar_leaves_user_e,resource_calendar_leaves_user_e,resource.model_resource_calendar_leaves,egp_hr_time_off.super_admin,1,1,1,1
+access_resource_calendar_leaves_user_m,resource_calendar_leaves_user_e,resource.model_resource_calendar_leaves,Egp_hr_Time_off.time_off_manager,1,1,1,1
 
-access_hr_holidays_status_user_e,hr.holidays.status user,hr_holidays.model_hr_leave_type,egp_hr_time_off.super_admin,1,0,0,0
+access_hr_holidays_status_user_m,hr.holidays.status user,hr_holidays.model_hr_leave_type,Egp_hr_Time_off.time_off_manager,1,0,0,0
 
-access_calendar_attendee_hr_user_e,calendar.attendee.hr.user_e,calendar.model_calendar_attendee,egp_hr_time_off.super_admin,1,1,1,1
+access_calendar_attendee_hr_user_m,calendar.attendee.hr.user_e,calendar.model_calendar_attendee,Egp_hr_Time_off.time_off_manager,1,1,1,1
 
-access_hr_holidays_manager_allocation_e,hr.holidays.manager.allocation_e,hr_holidays.model_hr_leave_allocation,egp_hr_time_off.super_admin,1,1,1,1
+access_hr_holidays_manager_allocation_m,hr.holidays.manager.allocation_e,hr_holidays.model_hr_leave_allocation,Egp_hr_Time_off.time_off_manager,1,1,1,1
 
-access_hr_holidays_status_manager_e,hr.holidays.status manager_e,hr_holidays.model_hr_leave_type,egp_hr_time_off.super_admin,1,1,1,1
+access_hr_holidays_status_manager_m,hr.holidays.status manager_e,hr_holidays.model_hr_leave_type,Egp_hr_Time_off.time_off_manager,1,1,1,1
 
-access_calendar_event_type_manager_e,calendar.event.type.manager_e,calendar.model_calendar_event,egp_hr_time_off.super_admin,1,1,1,1
-access_hr_leave_mandatory_day_manager_e,access_hr_holidays_mandatory_day_manager_e,hr_holidays.model_hr_leave_mandatory_day,egp_hr_time_off.super_admin,1,1,1,1
-access_hr_holidays_user_request_s,hr.holidays.user.request_s,model_hr_leave,egp_hr_time_off.super_admin,1,1,1,1
+access_calendar_event_type_manager_m,calendar.event.type.manager_e,calendar.model_calendar_event,Egp_hr_Time_off.time_off_manager,1,1,1,1
+access_hr_leave_mandatory_day_manager_m,access_hr_holidays_mandatory_day_manager_e,hr_holidays.model_hr_leave_mandatory_day,Egp_hr_Time_off.time_off_manager,1,1,1,1
+access_hr_holidays_user_request_m,hr.holidays.user.request_s,model_hr_leave,Egp_hr_Time_off.time_off_manager,1,1,1,1
 
-access_hr_leave_accrual_plan_user_e,hr.leave.accrual.plan.user_e,hr_holidays.model_hr_leave_accrual_plan,egp_hr_time_off.super_admin,1,0,0,0
+access_hr_leave_accrual_plan_user_m,hr.leave.accrual.plan.user_e,hr_holidays.model_hr_leave_accrual_plan,Egp_hr_Time_off.time_off_manager,1,0,0,0
 
-access_mail_activity_type_holidays_manager_e,mail.activity.type.holidays.manager_e,calendar.model_mail_activity_type,egp_hr_time_off.super_admin,1,1,1,1
-
-
-access_hr_leave_mandatory_day_user_e,access_hr_holidays_mandatory_day_user_e,hr_holidays.model_hr_leave_mandatory_day,egp_hr_time_off.super_admin,1,1,1,1
-access_hr_leave_accrual_plan_manager_e,hr.leave.accrual.plan.manager_e,hr_holidays.model_hr_leave_accrual_plan,egp_hr_time_off.super_admin,1,1,1,1
-access_hr_holidays_summary_employee_e,access.hr.holidays.summary.employee_e,hr_holidays.model_hr_holidays_summary_employee,egp_hr_time_off.super_admin,1,1,1,0
-
-access_hr_leave_accrual_level_manager_e,hr.leave.accrual.level.manager_e,hr_holidays.model_hr_leave_accrual_level,egp_hr_time_off.super_admin,1,1,1,1
-
-access_hr_leave_e,access_hr_leave_e,hr_holidays.model_hr_leave,egp_hr_time_off.super_admin,1,1,1,1
+access_mail_activity_type_holidays_manager_m,mail.activity.type.holidays.manager_e,calendar.model_mail_activity_type,Egp_hr_Time_off.time_off_manager,1,1,1,1
 
 
-
-access_hr_holidays_manager_allocation_o,hr.holidays.manager.allocation_o,hr_holidays.model_hr_leave_allocation,egp_hr_time_off.officer,1,1,1,1
-
-access_hr_holidays_employee_request_o,hr.holidays.employee.request_o,hr_holidays.model_hr_leave,egp_hr_time_off.officer,1,1,1,1
-
-access_hr_holidays_status_user_o,hr.holidays.status user,hr_holidays.model_hr_leave_type,egp_hr_time_off.officer,1,0,0,0
-
-access_hr_holidays_user_allocation_e,hr.holidays.user.allocation,hr_holidays.model_hr_leave_allocation,egp_hr_time_off.employee,1,1,1,1
-
-access_hr_holidays_status_user_e,hr.holidays.status user,hr_holidays.model_hr_leave_type,egp_hr_time_off.employee,1,0,0,0
+access_hr_leave_mandatory_day_user_m,access_hr_holidays_mandatory_day_user_e,hr_holidays.model_hr_leave_mandatory_day,Egp_hr_Time_off.time_off_manager,1,1,1,1
+access_hr_leave_accrual_plan_manager_m,hr.leave.accrual.plan.manager_e,hr_holidays.model_hr_leave_accrual_plan,Egp_hr_Time_off.time_off_manager,1,1,1,1
 
 
+access_hr_leave_accrual_level_manager_m,hr.leave.accrual.level.manager_e,hr_holidays.model_hr_leave_accrual_level,Egp_hr_Time_off.time_off_manager,1,1,1,1
 
-access_hr_leave_em,access_hr_leave_l,hr_holidays.model_hr_leave,egp_hr_time_off.employee,1,1,1,1
-access_hr_leave_em,access_hr_leave_l,hr_holidays.model_hr_leave_type,egp_hr_time_off.employee,1,1,1,1
-
-access_hr_holidays_status_user_e,hr.holidays.status user,hr_holidays.model_hr_leave_type,egp_hr_time_off.employee,1,0,0,0
-access_resource_calendar_leaves_user_e,resource_calendar_leaves_user,hr_holidays.model_resource_calendar_leaves,egp_hr_time_off.employee,1,1,1,1
-
-access_calendar_attendee_hr_user_e,calendar.attendee.hr.user,calendar.model_calendar_attendee,egp_hr_time_off.employee,1,1,1,1
-access_hr_holidays_summary_employee_e,access.hr.holidays.summary.employee,hr_holidays.model_hr_holidays_summary_employee,egp_hr_time_off.employee,1,1,1,0
+access_hr_leave_m,access_hr_leave_m,hr_holidays.model_hr_leave,Egp_hr_Time_off.time_off_manager,1,1,1,1
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+access_hr_holidays_manager_request_r,hr.holidays.manager.request_e,hr_holidays.model_hr_leave,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+
+access_resource_calendar_leaves_user_r,resource_calendar_leaves_user_e,resource.model_resource_calendar_leaves,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+
+access_hr_holidays_status_user_r,hr.holidays.status user,hr_holidays.model_hr_leave_type,Egp_hr_Time_off.time_off_responsible,1,0,0,0
+
+access_calendar_attendee_hr_user_r,calendar.attendee.hr.user_e,calendar.model_calendar_attendee,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+
+access_hr_holidays_manager_allocation_r,hr.holidays.manager.allocation_e,hr_holidays.model_hr_leave_allocation,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+
+access_hr_holidays_status_manager_r,hr.holidays.status manager_e,hr_holidays.model_hr_leave_type,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+
+access_calendar_event_type_manager_r,calendar.event.type.manager_e,calendar.model_calendar_event,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+access_hr_leave_mandatory_day_manager_r,access_hr_holidays_mandatory_day_manager_e,hr_holidays.model_hr_leave_mandatory_day,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+access_hr_holidays_user_request_r,hr.holidays.user.request_s,model_hr_leave,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+
+access_hr_leave_accrual_plan_user_r,hr.leave.accrual.plan.user_e,hr_holidays.model_hr_leave_accrual_plan,Egp_hr_Time_off.time_off_responsible,1,0,0,0
+
+access_mail_activity_type_holidays_manager_r,mail.activity.type.holidays.manager_e,calendar.model_mail_activity_type,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+
+
+access_hr_leave_mandatory_day_user_r,access_hr_holidays_mandatory_day_user_e,hr_holidays.model_hr_leave_mandatory_day,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+access_hr_leave_accrual_plan_manager_r,hr.leave.accrual.plan.manager_e,hr_holidays.model_hr_leave_accrual_plan,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+
+
+access_hr_leave_accrual_level_manager_r,hr.leave.accrual.level.manager_e,hr_holidays.model_hr_leave_accrual_level,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+
+access_hr_leave_e,access_hr_leave_r,hr_holidays.model_hr_leave,Egp_hr_Time_off.time_off_responsible,1,1,1,1
+
+
+
+access_hr_holidays_manager_request_em,hr.holidays.manager.request_e,hr_holidays.model_hr_leave,Egp_hr_Time_off.time_off_employee,1,1,1,1
 
 
 
